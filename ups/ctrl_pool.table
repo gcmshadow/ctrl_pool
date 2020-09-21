@@ -1,6 +1,2 @@
-setupRequired(daf_persistence)
-setupRequired(pipe_base)
-setupRequired(log)
-setupRequired(utils)
 pathPrepend(PYTHONPATH, ${PRODUCT_DIR}/python)
 pathPrepend(PATH, ${PRODUCT_DIR}/bin)
